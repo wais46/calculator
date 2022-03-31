@@ -88,6 +88,13 @@ equalSign.addEventListener('click', () => {
     updateScreen(curentNumber);
 })
 
+const percentages = document.querySelector('.percentage');
+
+percentages.addEventListener('click', () => {
+    curentNumber /= 100;
+    updateScreen(curentNumber);
+})
+
 const clearBtn = document.querySelector('.all-clear');
 
 clearBtn.addEventListener('click', () => {
